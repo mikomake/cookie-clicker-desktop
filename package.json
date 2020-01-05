@@ -1,0 +1,23 @@
+{
+  "name": "cookie-clicker",
+  "productName": "Cookie Clicker",
+  "version": "1.1.0",
+  "description": "A simple cookie clicking game with upgrades",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "build --linux snap"
+  },
+  "keywords": [
+    "Electron",
+    "Simple",
+    "Game",
+    "Cookies"
+  ],
+  "author": "mikomake",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "electron-builder": "^20.44.4"
+  }
+}
